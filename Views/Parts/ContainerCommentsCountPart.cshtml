@@ -1,0 +1,13 @@
+﻿@model dynamic
+@using Hazza.Blogging.Models
+
+@{
+    ContainerCommentsCountPart myPart = Model.ContentPart;
+}
+
+<ul class="pageStatus">
+    <li>
+        @Display.CommentSummaryLinks(item: Model.ContentPart.ContentItem, count: myPart.Count, pendingCount: myPart.PendingCount)
+        @T(" | ")&nbsp;
+    </li>
+</ul>

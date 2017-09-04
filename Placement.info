@@ -1,0 +1,8 @@
+<Placement>
+  <Match DisplayType="SummaryAdmin">
+    <Place Parts_ContainerCommentsCountPart="Meta:4" />
+    <Match ContentType="Blog">
+      <Place Parts_Comments_Count_SummaryAdmin="-" />
+    </Match>
+  </Match>
+</Placement>
