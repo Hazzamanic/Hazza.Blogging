@@ -1,0 +1,17 @@
+﻿.zone-content > .pageStatus {
+    float: right;
+    margin: -10px 0 10px 0;
+}
+
+.blogCountClear {
+    display: none;
+}
+
+.zone-content > .blogCountClear {
+    display: block;
+    clear: both;
+}
+
+.zone-content > .item-properties.actions {
+    float: right;
+}

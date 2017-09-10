@@ -94,6 +94,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Styles\blogcount.css" />
     <Content Include="Web.config" />
     <Content Include="Assets.json" />
     <Content Include="Scripts\Web.config" />

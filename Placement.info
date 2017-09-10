@@ -5,4 +5,9 @@
       <Place Parts_Comments_Count_SummaryAdmin="-" />
     </Match>
   </Match>
+  <Match DisplayType="DetailAdmin">
+    <Match ContentType="Blog">
+      <Place Parts_ContainerCommentsCountPart="Actions:6" />
+    </Match>
+  </Match>
 </Placement>
